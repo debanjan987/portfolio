@@ -1,0 +1,235 @@
+/* *{
+    overflow: hidden;
+} */
+@font-face {
+    font-family: 'fal-in';
+    src: url(./fonts/Falco\ Black\ Inline.otf);
+}
+
+
+@font-face {
+    font-family: 'colus';
+    src: url(./fonts/Colus\ Regular\ 400.otf);
+}
+
+@font-face {
+    font-family: 'historia';
+    src: url(./fonts/TheHistoriaDemo.ttf);
+}
+
+
+@font-face {
+    font-family: 'rock';
+    src: url(./fonts/Rocking\ Bones\ Vintage.ttf);
+    font-size: .3rem;
+    word-spacing: 0rem;
+    letter-spacing: 0rem;
+}
+/* Navigation */
+#logo img {
+    margin-left: 2rem ;
+    height: 44px;
+}
+
+#navbar{
+    /* flex-direction: column; */
+}
+
+#navbar ul{
+    margin-right: 30px;
+}
+
+#navbar ul li a{
+    padding: 5px 7px;
+    border-radius: 5px;
+    font-size :1.4rem;
+    margin: 0;
+    overflow: hidden;
+}
+
+/* Home */
+
+#one{
+    margin-top: 2.7rem;
+}
+
+.home{
+    height: 100%;
+    /* overflow: hidden; */
+    /* margin: inherit; */
+    margin-right: auto;
+}
+
+.home h1{
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* margin-left: 30%; */
+    font-size: 2.6rem;
+}
+
+.home::before{
+    height: 75%;
+}
+
+#home_btn{
+    padding: 5px 10px;
+    border: 2.5px solid red;
+    /* margin-left: 33%; */
+    background-color: transparent;
+    color: honeydew;
+    font-size: 1.5rem;
+    border-radius: 11px;
+
+}
+
+h1{
+    font-size: 3.7rem;
+}
+
+/* Services */
+#services{
+    flex-direction: column;
+}
+
+.secondary{
+    font-size: 2.2rem;
+}
+
+#services .box p{
+    line-height: 1.4rem;
+    font-size: 1.4rem;
+}
+
+#services .box{
+    height: 20rem;
+    margin: 15px 0;
+    padding: 5px 5px 10px 5px;
+    border-radius: 10px;
+    background-position: top;
+    background-size: cover;
+}
+
+
+#services .box:hover{
+    background-position: bottom;
+    cursor: pointer;
+}
+
+#sevices-container .box{
+}
+
+/* SKills */
+.Skills{
+
+}
+
+/* Banner */
+
+.banner{
+    height: 80vh;
+    width: 90%;
+    left: 5%;
+}
+
+.banner span{
+    font-size: 3.9rem;
+}
+
+.banner h1{
+    font-family: rock;
+    font-size: .3rem;
+    word-spacing: 0rem;
+    letter-spacing: 0rem;
+    text-align: center;
+}
+
+/* About */
+#about{
+    margin: 0 auto;
+    padding: 100px 20px;
+    overflow: hidden;
+} 
+
+
+#about .col-left img{
+    width: 85%; 
+    position: relative;  
+}
+
+#about .col-right {
+    width: 80%;
+    left: 10%;
+    /* padding: 10px; */
+    position: relative;
+}
+
+#about .col-right p {
+    margin-top: 16rem;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+}
+
+
+.cta{
+    position: absolute;
+    top: .1rem;
+    padding: 4px 7px;
+    margin-left: 1rem;
+    font-size: 1.7rem;
+    /* word-break: break-word; */
+}
+
+/* Contact */
+ #contact{
+    margin-top: -10rem;
+    /* padding-right:10px ; */
+}  
+
+.section-title{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: 3.5rem;
+}
+
+#contact .contact-items {
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* margin: 1rem 0 5rem 0; */
+}
+
+#contact .contact-item {
+    margin: 1rem 0.2rem 2rem 0.2rem;
+    /* align-items: center;
+    justify-content: center; */
+    border: 3px solid cyan;
+    text-align: center;
+}
+
+
+.contact-info h2{
+    font-size: 2.4rem;
+}
+
+/* .ph{
+    text-align: center;
+} */
+
+
+#em{
+    margin-left: 0rem;
+}
+
+/* footer */
+#footer{
+    /* width: 100%; */
+}
+
+#footer h1{
+    letter-spacing: .2rem;
+    font-size: 1.8rem;
+}
+
+#footer p{
+    font-size: 1.1rem;
+}
